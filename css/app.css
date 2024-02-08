@@ -83,6 +83,10 @@ a, button {
     width: calc(9 * 100% / 12);
 }
 
+.col-12 {
+    width: 100%;
+}
+
 /* HEADER */
 
 .page-header .link-menu {
@@ -102,7 +106,7 @@ a, button {
 
 /* MAIN */
 
-/*  HERO */
+/* = HERO */
 
 .hero {
     padding-top: 40px;
@@ -131,4 +135,10 @@ a, button {
 
 .hero .hero-img img {
     height: 400px;
+}
+
+/*  - SUBSCRIPTIONS */
+
+.subscriptions [class^=col] {
+    border: 1px solid black;
 }
