@@ -299,3 +299,21 @@ section:not(.hero) {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/*  - FEATURE LIST */
+
+.features-list .section-title {
+    margin-bottom: 50px;
+}
+
+.features-list .col-4 {
+    padding: 0 25px;
+}
+
+.features-list .section-subtitle {
+    margin-bottom: 25px;
+}
+
+.features-list .section-p {
+    margin-bottom: 60px;
+}
