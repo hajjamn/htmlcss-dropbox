@@ -69,6 +69,10 @@ a, button {
     font-size: 15px;
 }
 
+p , span { /* FIX THIS YOU LAZY BUM */
+    font-size: 15px;
+}
+
 label {   
     padding:1em;
     margin:1em;
@@ -184,29 +188,30 @@ label {
 
 /*  - SUBSCRIPTIONS */
 
-#subscriptions span, #subscriptions p {
-    font-size: 15px;
-}
-
-#subscriptions .container-sm {
-    padding-top: 20px;
-    padding-bottom: 20px;
+section:not(.hero) {
+    padding: 50px 0;
 }
 
 #subscriptions .section-title {
-    padding: 40px 0;
+    margin-bottom: 20px;
 }
 
-#subscriptions .section-title + a {
-    padding-right: 20px;
+#subscriptions .cont-buttons {
+    text-align: left;
+    padding: 50px 0;
 }
 
-#subscriptions .row {
+#subscriptions .cont-buttons > * {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#subscriptions .sub-list {
     gap: 40px;
 }
 
-#subscriptions .col-4 {
-    width: calc(4 * 100% / 12 - 40px);
+#subscriptions .sub-list .col-4 {
+    width: calc((4 * 100% / 12) - (2 * 40px / 3)); /* NE VADO MOLTO FIERO */
 }
 
 #subscriptions .col-4, #subscriptions .col-12 {
@@ -214,14 +219,12 @@ label {
 }
 
 #subscriptions .col-name {
-    text-align: center;
     padding: 5px 0;
     border-bottom: 1px solid lightgray;
-
 }
 
 #subscriptions .col-4 > div {
-    padding: 10px 20px;
+    padding: 10px 25px;
 }
 
 #subscriptions .col-top > *, #subscriptions .col-bottom > * {
@@ -234,10 +237,6 @@ label {
 
 #subscriptions .monthly {
     display: block;
-}
-
-#subscriptions .button {
-    text-align: center;
 }
 
 #subscriptions .col-top {
@@ -255,18 +254,18 @@ label {
 
 #subscriptions .col-top::after {
     content: "";
-    width: 15%;
+    width: 20%;
     border: 1px solid lightgrey;
     display: block;
     margin-top: 20px;
 }
 
 #subscriptions .col-12 .row > * {
-    padding: 20px;
+    padding: 30px;
 }
 
 #subscriptions .col-12 .col-8 .section-subtitle {
-    padding: 10px 0;
+    margin-bottom: 15px;
 }
 
 #subscriptions .col-12 .col-8 .section-strong {
@@ -275,7 +274,11 @@ label {
 
 #subscriptions .col-12 .col-4 {
     border: 0;
-    padding: 40px 0;
+}
+
+#subscriptions .col-12 .col-4 .button {
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 /*  - ENTRA IN CONTATTO */
