@@ -283,3 +283,19 @@ section:not(.hero) {
 
 /*  - ENTRA IN CONTATTO */
 
+.entra-in-contatto .col-4 {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.entra-in-contatto .col-4 > * {
+    margin-bottom: 30px;
+}
+
+.entra-in-contatto .col-4 .button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
