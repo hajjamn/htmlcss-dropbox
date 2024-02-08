@@ -317,3 +317,9 @@ section:not(.hero) {
 .features-list .section-p {
     margin-bottom: 60px;
 }
+
+/*  - CLIENTS */
+
+.clients .section-title {
+    margin-bottom: 50px;
+}
