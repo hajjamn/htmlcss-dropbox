@@ -48,10 +48,9 @@ a, button {
     font-family: 'Open Sans', sans-serif;
 }
 
-.button {
-    background-color: #0061FF;
-    color: white;
-    padding: 5px 15px;
+.hero-title {
+    font-size: 80px;
+    font-weight: 800;
 }
 
 .section-title {
@@ -66,15 +65,25 @@ a, button {
     font-size: 14px;
 }
 
-.oldschool-link {
-    color: blue;
-    text-decoration: underline;
+.section-p {
+    font-size: 15px;
 }
 
 label {   
     padding:1em;
     margin:1em;
     cursor:pointer;
+}
+
+.oldschool-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 15px;
 }
 
 /* UTILITIES */
@@ -91,17 +100,17 @@ label {
     justify-content: space-between;
 }
 
-.indent-second-line { 
-    text-indent: -0.5em; 
-    padding-left: 0.5em; 
+.txt-align-center {
+    text-align: center;
 }
 
 .list-indented {
     margin-left: 1em;
 }
 
-.txt-align-center {
-    text-align: center;
+.indent-second-line { 
+    text-indent: -0.5em; 
+    padding-left: 0.5em; 
 }
 
 .col-3 {
@@ -154,18 +163,13 @@ label {
 /* = HERO */
 
 .hero {
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 20px;
     background-color: #B4D0E7;
 }
 
-.hero h1 {
-    font-size: 80px;
-    font-weight: 800;
-}
-
-.hero .container {
-    margin-top: 40px;
+.hero .motto {
+    padding-bottom: 40px;
 }
 
 .hero .hero-article {
@@ -273,3 +277,6 @@ label {
     border: 0;
     padding: 40px 0;
 }
+
+/*  - ENTRA IN CONTATTO */
+
