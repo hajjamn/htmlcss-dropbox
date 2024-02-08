@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 ul, ol, menu {
@@ -92,7 +93,7 @@ a, button {
 .page-header .link-menu {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 20px;
     align-items: center;
 }
 
@@ -133,12 +134,8 @@ a, button {
     margin-top: auto;
 }
 
-.hero .hero-img img {
-    height: 400px;
-}
-
 /*  - SUBSCRIPTIONS */
 
-.subscriptions [class^=col] {
+#subscriptions [class^=col] {
     border: 1px solid black;
 }
