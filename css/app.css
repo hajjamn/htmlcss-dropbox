@@ -50,10 +50,7 @@ a, button {
 .button {
     background-color: #0061FF;
     color: white;
-}
-
-.hero {
-    background-color: #B4D0E7;
+    padding: 5px 15px;
 }
 
 /* UTILITIES */
@@ -62,12 +59,24 @@ a, button {
     flex-direction: row-reverse;
 }
 
+.column {
+    flex-direction: column;
+}
+
 .justify-between {
     justify-content: space-between;
 }
 
 .col-3 {
     width: calc(3 * 100% / 12);
+}
+
+.col-4 {
+    width: calc(4 * 100% / 12);
+}
+
+.col-8 {
+    width: calc(8 * 100% / 12);
 }
 
 .col-9 {
@@ -91,6 +100,35 @@ a, button {
     padding: 0;
 }
 
-.page-header .link-menu .button {
-    padding: 5px 15px;
+/* MAIN */
+
+/*  HERO */
+
+.hero {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #B4D0E7;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.hero .container {
+    margin-top: 40px;
+}
+
+.hero .hero-article {
+    padding-right: 40px;
+    gap: 40px;
+}
+
+.hero .hero-article .hero-icon {
+    font-size: 40px;
+    margin-top: auto;
+}
+
+.hero .hero-img img {
+    height: 400px;
 }
