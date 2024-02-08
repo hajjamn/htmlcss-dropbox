@@ -58,6 +58,19 @@ a, button {
     font-size: 40px;
 }
 
+.section-subtitle {
+    font-size: 20px;
+}
+
+.section-strong {
+    font-size: 14px;
+}
+
+.oldschool-link {
+    color: blue;
+    text-decoration: underline;
+}
+
 /* UTILITIES */
 
 .row-reverse {
@@ -96,6 +109,9 @@ a, button {
     color: #0061FF;
 }
 
+.cl-lightgray {
+    color: lightgray;
+}
 /* HEADER */
 
 .page-header .link-menu {
@@ -144,6 +160,10 @@ a, button {
 
 /*  - SUBSCRIPTIONS */
 
+#subscriptions span, #subscriptions p {
+    font-size: 15px;
+}
+
 #subscriptions .container-sm {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -157,7 +177,75 @@ a, button {
     padding-right: 20px;
 }
 
+#subscriptions .row {
+    gap: 40px;
+}
 
-#subscriptions [class^=col] {
-    border: 1px solid black;
+#subscriptions .col-4 {
+    width: calc(4 * 100% / 12 - 40px);
+}
+
+#subscriptions .col-4, #subscriptions .col-12 {
+    border: 1px solid lightgray;
+}
+
+#subscriptions .col-name {
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgray;
+
+}
+
+#subscriptions .col-4 > div {
+    padding: 10px 20px;
+}
+
+#subscriptions .col-top > *, #subscriptions .col-bottom > * {
+    padding: 20px 0;
+}
+
+#subscriptions .col-4 ul > li {
+    padding: 10px 0;
+}
+
+#subscriptions .monthly {
+    display: block;
+}
+
+#subscriptions .button {
+    text-align: center;
+}
+
+#subscriptions .col-top {
+    border-bottom: 0;
+}
+
+#subscriptions  .col-bottom {
+    border-top: 0;
+}
+
+#subscriptions .button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#subscriptions .col-top::after {
+    content: "";
+    width: 15%;
+    border: 1px solid lightgrey;
+    display: block;
+    margin-top: 20px;
+}
+
+.indent-second-line { 
+    text-indent: -0.5em; 
+    padding-left: 0.5em; 
+}
+
+.list-indented {
+    margin-left: 1em;
+}
+
+#subscriptions .monthly {
+
 }
