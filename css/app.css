@@ -144,10 +144,6 @@ a, button {
 
 /*  - SUBSCRIPTIONS */
 
-#subscriptions [class^=col] {
-    border: 1px solid black;
-}
-
 #subscriptions .container-sm {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -159,4 +155,9 @@ a, button {
 
 #subscriptions .section-title + a {
     padding-right: 20px;
+}
+
+
+#subscriptions [class^=col] {
+    border: 1px solid black;
 }
