@@ -18,3 +18,67 @@ a, button {
     text-decoration: none;
     color: currentColor;
 }
+
+/* LAYOUT */
+
+.container-lg {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container-sm {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* STYLE */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    background-color: #0061FF;
+    color: white;
+}
+
+/* UTILITIES */
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* HEADER */
+
+.page-header .link-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+}
+
+.page-header .link-menu > li {
+    padding: 5px 15px;
+}
+
+.page-header .link-menu .button-item {
+    padding: 0;
+}
+
+.page-header .link-menu .button {
+    padding: 5px 15px;
+}
