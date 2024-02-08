@@ -52,6 +52,10 @@ a, button {
     color: white;
 }
 
+.hero {
+    background-color: #B4D0E7;
+}
+
 /* UTILITIES */
 
 .row-reverse {
@@ -60,6 +64,14 @@ a, button {
 
 .justify-between {
     justify-content: space-between;
+}
+
+.col-3 {
+    width: calc(3 * 100% / 12);
+}
+
+.col-9 {
+    width: calc(9 * 100% / 12);
 }
 
 /* HEADER */
