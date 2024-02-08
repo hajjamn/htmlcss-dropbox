@@ -59,7 +59,7 @@ a, button {
 }
 
 .section-subtitle {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .section-strong {
@@ -69,6 +69,12 @@ a, button {
 .oldschool-link {
     color: blue;
     text-decoration: underline;
+}
+
+label {   
+    padding:1em;
+    margin:1em;
+    cursor:pointer;
 }
 
 /* UTILITIES */
@@ -83,6 +89,19 @@ a, button {
 
 .justify-between {
     justify-content: space-between;
+}
+
+.indent-second-line { 
+    text-indent: -0.5em; 
+    padding-left: 0.5em; 
+}
+
+.list-indented {
+    margin-left: 1em;
+}
+
+.txt-align-center {
+    text-align: center;
 }
 
 .col-3 {
@@ -112,6 +131,7 @@ a, button {
 .cl-lightgray {
     color: lightgray;
 }
+
 /* HEADER */
 
 .page-header .link-menu {
@@ -237,15 +257,19 @@ a, button {
     margin-top: 20px;
 }
 
-.indent-second-line { 
-    text-indent: -0.5em; 
-    padding-left: 0.5em; 
+#subscriptions .col-12 .row > * {
+    padding: 20px;
 }
 
-.list-indented {
-    margin-left: 1em;
+#subscriptions .col-12 .col-8 .section-subtitle {
+    padding: 10px 0;
 }
 
-#subscriptions .monthly {
+#subscriptions .col-12 .col-8 .section-strong {
+    margin-bottom: 40px;
+}
 
+#subscriptions .col-12 .col-4 {
+    border: 0;
+    padding: 40px 0;
 }
