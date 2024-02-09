@@ -104,6 +104,10 @@ label {
     justify-content: space-between;
 }
 
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
 .txt-align-center {
     text-align: center;
 }
@@ -115,6 +119,10 @@ label {
 .indent-second-line { 
     text-indent: -0.5em; 
     padding-left: 0.5em; 
+}
+
+.col-2 {
+    width: calc(2 * 100% / 12);
 }
 
 .col-3 {
@@ -322,4 +330,74 @@ section:not(.hero) {
 
 .clients .section-title {
     margin-bottom: 50px;
+}
+
+/*  - DESIGNIT */
+
+.designit-section .school-square {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.designit-section .col-2 img {
+    filter: invert(100%);
+    max-width: 50%;
+}
+
+#designit-square {
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+#florida {
+    background-color: #0093CE;
+}
+
+#arizona {
+    background-color: #61082B;
+}
+
+#topps {
+    background-color: #FF1C1C;
+}
+
+.designit-lg {
+    background-color: #F5F5F5;
+    padding: 40px;
+    height: calc(100vw / 3);
+}
+
+.designit-lg img {
+    width: 40%;
+}
+
+.designit-lg-img::after {
+    content: "";
+    width: 20%;
+    border: 1px solid lightgrey;
+    display: block;
+    margin: 40px 0;
+}
+
+.designit-lg p {
+    margin-bottom: 40px;
+}
+
+#world-bicycle {
+    background-color: #D5001F;
+}
+
+#lonely-planet {
+    background-color: #0D2481;
+}
+
+#hearst {
+    background-color: #B4D0E7;
+}
+
+#clear-channel {
+    background-color: #FFD830;
 }
