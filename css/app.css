@@ -42,6 +42,38 @@ a, button {
     flex-wrap: wrap;
 }
 
+.col-2 {
+    width: calc(2 * 100% / 12);
+}
+
+.col-3 {
+    width: calc(3 * 100% / 12);
+}
+
+.col-4 {
+    width: calc(4 * 100% / 12);
+}
+
+.col-6 {
+    width: calc(6 * 100% / 12);
+}
+
+.col-8 {
+    width: calc(8 * 100% / 12);
+}
+
+.col-9 {
+    width: calc(9 * 100% / 12);
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
 /* STYLE */
 
 * {
@@ -135,38 +167,6 @@ label {
 .indent-second-line { 
     text-indent: -0.5em; 
     padding-left: 0.5em; 
-}
-
-.col-2 {
-    width: calc(2 * 100% / 12);
-}
-
-.col-3 {
-    width: calc(3 * 100% / 12);
-}
-
-.col-4 {
-    width: calc(4 * 100% / 12);
-}
-
-.col-6 {
-    width: calc(6 * 100% / 12);
-}
-
-.col-8 {
-    width: calc(8 * 100% / 12);
-}
-
-.col-9 {
-    width: calc(9 * 100% / 12);
-}
-
-.col-12 {
-    width: 100%;
-}
-
-.col-20 {
-    width: 20%;
 }
 
 .cl-blue {
