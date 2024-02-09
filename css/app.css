@@ -212,7 +212,7 @@ label {
 
 /*  - SUBSCRIPTIONS */
 
-section:not(.hero, .faq) {
+main section:not(.hero, .designit-section) {
     padding: 50px 0;
 }
 
@@ -458,10 +458,6 @@ section:not(.hero, .faq) {
     color: white;
 }
 
-.page-footer .footer-nav .container {
-    padding-bottom: 100px;
-}
-
 .page-footer .section-subtitle {
     padding: 30px 0;
 }
@@ -476,4 +472,9 @@ section:not(.hero, .faq) {
     border: 1px solid white;
     display: block;
     margin-top: 100px;
+}
+
+.language-menu {
+    opacity: 0.5;
+    padding: 40px 0;
 }
