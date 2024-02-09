@@ -456,6 +456,7 @@ main section:not(.hero, .designit-section) {
 .page-footer {
     background-color: black;
     color: white;
+    padding-top: 50px;
 }
 
 .page-footer .section-subtitle {
