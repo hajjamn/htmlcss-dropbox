@@ -217,25 +217,13 @@ label {
     margin-top: auto;
 }
 
-/* GIANLUCA NON GUARDARE GIURO CHE QUI NON STA SUCCEDENDO NIENTE */
-
-/* .hero {
-    min-height: 80vh;
-}
-
 .hero-img {
-    position: relative;
-    top: 0;
-}
-
-#hero-jumbo {
-    position: absolute;
+    margin-bottom: -100px;
 }
 
 #subscriptions .section-title {
     padding-top: 50px;
-} */
-
+}
 
 /*  - SUBSCRIPTIONS */
 
