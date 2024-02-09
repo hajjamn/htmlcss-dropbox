@@ -14,16 +14,16 @@
     <!-- HEADER -->
     <header class="page-header">
         <div class="container-lg">
-            <nav class="row justify-between">
+            <nav class="row flex justify-between align-center">
                 <!-- LEFT MENU WITH LOGO -->
-                <ul class="link-menu">
+                <ul class="link-menu flex align-center">
                     <li><a href="#"><img src="./img/logo-small.png" alt=""></a></li>
                     <li><a href="#">Perché Dropbox</a></li>
                     <li><a href="#">Funzioni</a></li>
                     <li><a href="#subscriptions">Piani e Prezzi</a></li>
                 </ul>
                 <!-- RIGHT MENU WITH LOGIN BUTTON -->
-                <ul class="link-menu  row-reverse">
+                <ul class="link-menu flex align-center row-reverse">
                     <li class="button-item"><a href="#" class="button">Inizia</a></li>
                     <li><a href="#">Accedi</a></li>
                     <li><a href="#">Contatta l'ufficio vendite</a></li>
@@ -41,8 +41,8 @@
                 <h1 class="hero-title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             </div>
             <!-- ARTICLE AND IMG -->
-            <div class="container row">
-                <div class="hero-article col-4 row column">
+            <div class="container flex">
+                <div class="row hero-article col-4 column">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sint laudantium beatae quod eos consequuntur molestiae, facilis maxime. Ea amet, eligendi temporibus delectus doloremque suscipit et illum est quaerat natus.</p>
                     <div>
                         <a href="" class="button">Inizia la tua prova gratuita</a>
@@ -205,7 +205,7 @@
                             <i class="fa-solid fa-building"></i>
                             <span> Team</span>
                         </div>
-                        <div class="row">
+                        <div class="flex">
                             <div class="col-8">
                                 <h3 class="section-subtitle">Enterprise</h3>
                                 <h4 class="section-strong">Contatta l'ufficio vendite per i prezzi</h4>
@@ -281,45 +281,47 @@
         </section>
         <!-- DESIGNIT -->
         <section class="designit-section">
-            <div class="row">
-                <div class="col-2">
-                    <div class="school-square" id="designit-square">
-                        <img src="./img/designit.svg" alt="">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="school-square" id="designit-square">
+                            <img src="./img/designit.svg" alt="">
+                        </div>
+                        <div class="school-square" id="florida">
+                            <img src="./img/university_of_florida.svg" alt="">
+                        </div>
                     </div>
-                    <div class="school-square" id="florida">
-                        <img src="./img/university_of_florida.svg" alt="">
+                    <div class="col-2">
+                        <div class="school-square" id="arizona">
+                            <img src="./img/arizona_state_university.svg" alt="">
+                        </div>
+                        <div class="school-square" id="topps">
+                            <img src="./img/topps.svg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="school-square" id="arizona">
-                        <img src="./img/arizona_state_university.svg" alt="">
+                    <!-- DESIGNIT LG -->
+                    <div class="col-4 flex-grow designit-lg">
+                        <div class="designit-lg-img">
+                            <img src="./img/designit.svg" alt="">
+                        </div>
+                        <p class="section-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero dignissimos impedit expedita nesciunt possimus molestias doloribus. Laborum blanditiis fugit, ipsam nemo vero quisquam consectetur nisi natus velit temporibus distinctio!</p>
+                        <span class="section-p">Morten Thomasen, Global IT Lead</span>
                     </div>
-                    <div class="school-square" id="topps">
-                        <img src="./img/topps.svg" alt="">
+                    <div class="col-2">
+                        <div class="school-square" id="world-bicycle">
+                            <img src="./img/world_bicycle_relief.svg" alt="">
+                        </div>
+                        <div class="school-square" id="lonely-planet">
+                            <img src="./img/lonely_planet.svg" alt="">
+                        </div>
                     </div>
-                </div>
-                <!-- DESIGNIT LG -->
-                <div class="col-4 flex-grow designit-lg">
-                    <div class="designit-lg-img">
-                        <img src="./img/designit.svg" alt="">
-                    </div>
-                    <p class="section-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero dignissimos impedit expedita nesciunt possimus molestias doloribus. Laborum blanditiis fugit, ipsam nemo vero quisquam consectetur nisi natus velit temporibus distinctio!</p>
-                    <span class="section-p">Morten Thomasen, Global IT Lead</span>
-                </div>
-                <div class="col-2">
-                    <div class="school-square" id="world-bicycle">
-                        <img src="./img/world_bicycle_relief.svg" alt="">
-                    </div>
-                    <div class="school-square" id="lonely-planet">
-                        <img src="./img/lonely_planet.svg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="school-square" id="hearst">
-                        <img src="./img/hearst_corp.svg" alt="">
-                    </div>
-                    <div class="school-square" id="clear-channel">
-                        <img src="./img/clear_channel.svg" alt="">
+                    <div class="col-2">
+                        <div class="school-square" id="hearst">
+                            <img src="./img/hearst_corp.svg" alt="">
+                        </div>
+                        <div class="school-square" id="clear-channel">
+                            <img src="./img/clear_channel.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -342,15 +344,15 @@
             <div class="container-sm">
                 <div class="row column">
                     <h2 class="section-title">Domande frequenti</h2>
-                    <div class="row">
+                    <div class="flex">
                         <h4 class="section-strong">Qual è la differenza tra dropbox Business Standard e Dropbox Business Advanced?</h4>
                         <a href="#"><span><i class="fa-solid fa-chevron-down"></i></span></a>
                     </div>
-                    <div class="row">
+                    <div class="flex">
                         <h4 class="section-strong">Qual è la differenza tra dropbox Business Standard e Dropbox Business Advanced?</h4>
                         <a href=""><span><i class="fa-solid fa-chevron-down"></i></span></a>
                     </div>
-                    <div class="row">
+                    <div class="flex">
                         <h4 class="section-strong">Qual è la differenza tra dropbox Business Standard e Dropbox Business Advanced?</h4>
                         <a href=""><span><i class="fa-solid fa-chevron-down"></i></span></a>
                     </div>
