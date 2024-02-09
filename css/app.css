@@ -90,6 +90,14 @@ label {
     padding: 5px 15px;
 }
 
+.button-white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* UTILITIES */
 
 .row-reverse {
@@ -131,6 +139,10 @@ label {
 
 .col-4 {
     width: calc(4 * 100% / 12);
+}
+
+.col-6 {
+    width: calc(6 * 100% / 12);
 }
 
 .col-8 {
@@ -300,14 +312,6 @@ section:not(.hero) {
     margin-bottom: 30px;
 }
 
-.entra-in-contatto .col-4 .button {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 /*  - FEATURE LIST */
 
 .features-list .section-title {
@@ -400,4 +404,23 @@ section:not(.hero) {
 
 #clear-channel {
     background-color: #FFD830;
+}
+
+/*  - FREE TRIAL */
+
+.free-trial {
+    background-color: #B4D0E7;
+}
+
+.free-trial .container-sm > .row {
+    padding: 40px 0;
+}
+
+.free-trial .section-title {
+    color: #61082B;
+}
+
+.free-trial .button-white {
+    border: 0;
+    padding: 10px 40px;
 }
