@@ -193,6 +193,8 @@ label {
 .hero {
     padding-top: 80px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #B4D0E7;
 }
 
@@ -461,6 +463,8 @@ main section:not(.hero, .designit-section) {
     background-color: black;
     color: white;
     padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .page-footer .section-subtitle {
