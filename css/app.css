@@ -336,6 +336,10 @@ main section:not(.hero, .designit-section) {
 
 /*  - CLIENTS */
 
+.clients {
+    margin-bottom: 100px;
+}
+
 .clients .section-title {
     margin-bottom: 50px;
 }
@@ -429,7 +433,7 @@ main section:not(.hero, .designit-section) {
     padding: 10px 40px;
 }
 
-/*  = FAQ */
+/*  - FAQ */
 
 .faq {
     margin: 80px 0;
