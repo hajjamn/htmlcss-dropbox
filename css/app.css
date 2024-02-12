@@ -120,6 +120,11 @@ label {
     background-color: #0061FF;
     color: white;
     padding: 5px 15px;
+    transition: background-color 300ms ease-in;
+}
+
+.button:hover {
+    background-color: #0f4eb4;
 }
 
 .button-white {
@@ -128,6 +133,11 @@ label {
     border: 1px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: background-color 300ms ease-in;
+}
+
+.button-white:hover {
+    background-color: #b4b4b4;
 }
 
 .border-lightgray {
@@ -189,7 +199,105 @@ label {
     padding: 30px;
 }
 
+/* ANIMATIONS */
+
+* {
+    scroll-behavior: smooth;
+}
+
+.animation-delay-2 {
+    animation-delay: 2s;
+}
+
+.animation-fill-forwards {
+    animation-fill-mode: forwards;
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.slide-in-left {
+    animation-name: slide-in-left;
+    animation-duration: 2s;
+}
+
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-right {
+    animation-name: slide-in-right;
+    animation-duration: 2s;
+}
+
+@keyframes slide-in-right {
+    0% {
+        opacity: 0;
+        transform: translateX(100vw)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-top {
+    animation-name: slide-in-top;
+    animation-duration: 2s;
+}
+
+@keyframes slide-in-top {
+    0% {
+        opacity: 0;
+        transform: translatey(-100vh)
+    }
+    100% {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
 /* HEADER */
+
+.page-header {
+    opacity: 0;
+}
 
 .page-header .link-menu {
     padding: 20px;
