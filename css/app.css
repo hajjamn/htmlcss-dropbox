@@ -152,6 +152,10 @@ label {
     align-items: center;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .flex-grow-1 {
     flex-grow: 1;
 }
@@ -362,15 +366,19 @@ main section:not(.hero, .designit-section) {
 
 /*  - DESIGNIT */
 
+.designit-section .container-lg {
+    height: calc(100vw / 3);
+}
+
 .designit-section .school-square {
     height: 50%;
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.designit-section .col-2 img {
+.designit-section .square-list img {
     filter: invert(100%);
     max-width: 50%;
 }
