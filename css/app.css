@@ -130,6 +130,18 @@ label {
     padding-bottom: 10px;
 }
 
+.border-lightgray {
+    border: 1px solid lightgray;
+}
+
+.cl-blue {
+    color: #0061FF;
+}
+
+.cl-lightgray {
+    color: lightgray;
+}
+
 /* UTILITIES */
 
 .flex {
@@ -173,12 +185,8 @@ label {
     padding-left: 0.5em; 
 }
 
-.cl-blue {
-    color: #0061FF;
-}
-
-.cl-lightgray {
-    color: lightgray;
+.padding-30 {
+    padding: 30px;
 }
 
 /* HEADER */
@@ -258,16 +266,12 @@ main section:not(.hero, .designit-section) {
     width: calc((4 * 100% / 12) - (2 * 40px / 3)); /* NE VADO MOLTO FIERO */
 }
 
-#subscriptions .col-4, #subscriptions .col-12 {
-    border: 1px solid lightgray;
-}
-
 #subscriptions .col-name {
     padding: 5px 0;
     border-bottom: 1px solid lightgray;
 }
 
-#subscriptions .col-4 > div {
+#subscriptions .sons-padding > div {
     padding: 10px 25px;
 }
 
@@ -275,7 +279,7 @@ main section:not(.hero, .designit-section) {
     padding: 20px 0;
 }
 
-#subscriptions .col-4 ul > li {
+#subscriptions .sons-padding ul > li {
     padding: 10px 0;
 }
 
@@ -304,35 +308,27 @@ main section:not(.hero, .designit-section) {
     margin-top: 20px;
 }
 
-#subscriptions .col-12 .flex > * {
-    padding: 30px;
-}
-
-#subscriptions .col-12 .col-8 .section-subtitle {
+#subscriptions .large-sub .section-subtitle {
     margin-bottom: 15px;
 }
 
-#subscriptions .col-12 .col-8 .section-strong {
+#subscriptions .large-sub .section-strong {
     margin-bottom: 40px;
 }
 
-#subscriptions .col-12 .col-4 {
-    border: 0;
-}
-
-#subscriptions .col-12 .col-4 .button {
+#subscriptions .large-sub .button {
     padding-right: 30px;
     padding-left: 30px;
 }
 
 /*  - ENTRA IN CONTATTO */
 
-.entra-in-contatto .col-4 {
+.entra-in-contatto .contact-text {
     padding-top: 40px;
     padding-left: 40px;
 }
 
-.entra-in-contatto .col-4 > * {
+.entra-in-contatto .contact-text > * {
     margin-bottom: 30px;
 }
 
@@ -342,7 +338,7 @@ main section:not(.hero, .designit-section) {
     margin-bottom: 50px;
 }
 
-.features-list .col-4 {
+.features-list .row > div {
     padding: 0 25px;
 }
 
@@ -404,7 +400,7 @@ main section:not(.hero, .designit-section) {
     background-color: #F5F5F5;
     padding: 40px;
     height: calc(100vw / 3);
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .designit-lg img {
