@@ -496,7 +496,7 @@ main section:not(.hero, .designit-section) {
 
 .page-footer li {
     padding: 5px 0;
-}
+} 
 
 .page-footer .footer-nav .container::after {
     content: "";
