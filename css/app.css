@@ -404,7 +404,7 @@ main section:not(.hero, .designit-section) {
     background-color: #F5F5F5;
     padding: 40px;
     height: calc(100vw / 3);
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .designit-lg img {
