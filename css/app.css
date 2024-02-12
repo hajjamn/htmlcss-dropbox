@@ -20,6 +20,18 @@ a, button {
     color: currentColor;
 }
 
+details > summary {
+    list-style: none;
+  }
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details {
+    cursor: pointer
+}
+
 /* LAYOUT */
 
 .container-lg {
@@ -150,6 +162,11 @@ label {
 
 .cl-lightgray {
     color: lightgray;
+}
+
+
+.border-bottom {
+    border-bottom: 1px solid black;
 }
 
 /* UTILITIES */
@@ -575,9 +592,10 @@ main section:not(.hero, .designit-section) {
 
 .faq .row.column .flex {
     padding: 40px 0;
-    border-bottom: 1px solid black;
-    align-items: center;
-    justify-content: space-between;
+}
+
+.faq details p {
+    padding: 20px 0;
 }
 
 .faq .flex span {
