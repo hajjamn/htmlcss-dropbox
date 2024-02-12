@@ -515,6 +515,20 @@ main section:not(.hero, .designit-section) {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: rotate 2s linear;
+}
+
+/* .school-square:hover {
+    animation-name: rotate-right;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+} */
+
+.designit-section .school-square:hover {
+    rotate: 360deg;
 }
 
 .designit-section .square-list img {
@@ -576,14 +590,6 @@ main section:not(.hero, .designit-section) {
 
 #clear-channel {
     background-color: #FFD830;
-}
-
-.school-square:hover {
-    animation-name: rotate-right;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
 }
 
 /*  - FREE TRIAL */
